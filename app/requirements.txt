@@ -1,5 +1,5 @@
 flask
-gunicorn==19.6.0
+gunicorn==22.0.0
 unittest-xml-reporting
 sqlalchemy
 psycopg2-binary
