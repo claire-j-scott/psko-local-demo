@@ -19,7 +19,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:%(pw)s@%(host)s:%
 print(app.config['SQLALCHEMY_DATABASE_URI'])
 db = SQLAlchemy(app)
 
-db.init_app(app)
 
 
 # Create our database model
